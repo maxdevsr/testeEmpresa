@@ -1,0 +1,39 @@
+
+body {
+
+  background-color: antiquewhite;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.App button {
+  cursor: pointer;
+}
+ .App-header {
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+
+ }
+
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 10px;
+  width: 106px;
+  height: 40px;
+  background: #526159;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+

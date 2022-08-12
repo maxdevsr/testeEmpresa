@@ -1,0 +1,14 @@
+.paiCards {
+    display: flex;
+}
+
+.ULcards {
+    display: flex;
+    list-style-type: none;
+}
+
+@media (max-width: 900px) {
+    .ULcards {
+        flex-direction: column;
+    }
+}
